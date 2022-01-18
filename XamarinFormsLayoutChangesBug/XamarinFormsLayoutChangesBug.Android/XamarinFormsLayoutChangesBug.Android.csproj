@@ -175,7 +175,7 @@
       <HintPath>..\..\..\3rdParty\Xamarin.Forms\Stubs\Xamarin.Forms.Platform.Android\bin\Debug\monoandroid10.0\Xamarin.Forms.Platform.Android.dll</HintPath>
     </Reference>
     <Reference Include="Xamarin.Google.Android.Material, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\..\packages\Xamarin.Google.Android.Material.1.4.0.4\lib\monoandroid90\Xamarin.Google.Android.Material.dll</HintPath>
+      <HintPath>..\..\packages\Xamarin.Google.Android.Material.1.2.1.1\lib\monoandroid90\Xamarin.Google.Android.Material.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -259,8 +259,8 @@
     <Error Condition="!Exists('..\..\packages\Xamarin.AndroidX.ConstraintLayout.2.1.1.2\build\monoandroid90\Xamarin.AndroidX.ConstraintLayout.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.AndroidX.ConstraintLayout.2.1.1.2\build\monoandroid90\Xamarin.AndroidX.ConstraintLayout.targets'))" />
     <Error Condition="!Exists('..\..\packages\Xamarin.AndroidX.Transition.1.4.1.3\build\monoandroid90\Xamarin.AndroidX.Transition.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.AndroidX.Transition.1.4.1.3\build\monoandroid90\Xamarin.AndroidX.Transition.targets'))" />
     <Error Condition="!Exists('..\..\packages\Xamarin.AndroidX.ViewPager2.1.0.0.12\build\monoandroid90\Xamarin.AndroidX.ViewPager2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.AndroidX.ViewPager2.1.0.0.12\build\monoandroid90\Xamarin.AndroidX.ViewPager2.targets'))" />
-    <Error Condition="!Exists('..\..\packages\Xamarin.Google.Android.Material.1.4.0.4\build\monoandroid90\Xamarin.Google.Android.Material.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Google.Android.Material.1.4.0.4\build\monoandroid90\Xamarin.Google.Android.Material.targets'))" />
     <Error Condition="!Exists('..\..\packages\Xamarin.AndroidX.SwipeRefreshLayout.1.1.0.5\build\monoandroid90\Xamarin.AndroidX.SwipeRefreshLayout.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.AndroidX.SwipeRefreshLayout.1.1.0.5\build\monoandroid90\Xamarin.AndroidX.SwipeRefreshLayout.targets'))" />
+    <Error Condition="!Exists('..\..\packages\Xamarin.Google.Android.Material.1.2.1.1\build\monoandroid90\Xamarin.Google.Android.Material.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\..\packages\Xamarin.Google.Android.Material.1.2.1.1\build\monoandroid90\Xamarin.Google.Android.Material.targets'))" />
   </Target>
   <Import Project="..\..\packages\Xamarin.AndroidX.ConstraintLayout.Core.1.0.1.2\build\monoandroid90\Xamarin.AndroidX.ConstraintLayout.Core.targets" Condition="Exists('..\..\packages\Xamarin.AndroidX.ConstraintLayout.Core.1.0.1.2\build\monoandroid90\Xamarin.AndroidX.ConstraintLayout.Core.targets')" />
   <Import Project="..\..\packages\Xamarin.AndroidX.MultiDex.2.0.1.5\build\monoandroid90\Xamarin.AndroidX.MultiDex.targets" Condition="Exists('..\..\packages\Xamarin.AndroidX.MultiDex.2.0.1.5\build\monoandroid90\Xamarin.AndroidX.MultiDex.targets')" />
@@ -301,6 +301,6 @@
   <Import Project="..\..\packages\Xamarin.AndroidX.ConstraintLayout.2.1.1.2\build\monoandroid90\Xamarin.AndroidX.ConstraintLayout.targets" Condition="Exists('..\..\packages\Xamarin.AndroidX.ConstraintLayout.2.1.1.2\build\monoandroid90\Xamarin.AndroidX.ConstraintLayout.targets')" />
   <Import Project="..\..\packages\Xamarin.AndroidX.Transition.1.4.1.3\build\monoandroid90\Xamarin.AndroidX.Transition.targets" Condition="Exists('..\..\packages\Xamarin.AndroidX.Transition.1.4.1.3\build\monoandroid90\Xamarin.AndroidX.Transition.targets')" />
   <Import Project="..\..\packages\Xamarin.AndroidX.ViewPager2.1.0.0.12\build\monoandroid90\Xamarin.AndroidX.ViewPager2.targets" Condition="Exists('..\..\packages\Xamarin.AndroidX.ViewPager2.1.0.0.12\build\monoandroid90\Xamarin.AndroidX.ViewPager2.targets')" />
-  <Import Project="..\..\packages\Xamarin.Google.Android.Material.1.4.0.4\build\monoandroid90\Xamarin.Google.Android.Material.targets" Condition="Exists('..\..\packages\Xamarin.Google.Android.Material.1.4.0.4\build\monoandroid90\Xamarin.Google.Android.Material.targets')" />
   <Import Project="..\..\packages\Xamarin.AndroidX.SwipeRefreshLayout.1.1.0.5\build\monoandroid90\Xamarin.AndroidX.SwipeRefreshLayout.targets" Condition="Exists('..\..\packages\Xamarin.AndroidX.SwipeRefreshLayout.1.1.0.5\build\monoandroid90\Xamarin.AndroidX.SwipeRefreshLayout.targets')" />
+  <Import Project="..\..\packages\Xamarin.Google.Android.Material.1.2.1.1\build\monoandroid90\Xamarin.Google.Android.Material.targets" Condition="Exists('..\..\packages\Xamarin.Google.Android.Material.1.2.1.1\build\monoandroid90\Xamarin.Google.Android.Material.targets')" />
 </Project>
